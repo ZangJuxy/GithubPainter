@@ -11,7 +11,7 @@ def str_to_timestamp(str_time, format='%Y-%m-%d %H:%M:%S'):
 
 if __name__ == '__main__':
     # 事先准备一个本地的空Git仓库，填上路径
-    repo = Repo('./1998')
+    repo = Repo('D:\dromara\GithubPainter')
     git = repo.git
     # 加载设计器导出的文件
     with open('./map.qs', 'r') as fp:
